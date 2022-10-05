@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <title>Basketball Scoreboard</title>
+    </head>
+    <body>
+        <div class="container">
+
+            <div id="team1">
+                <h3 class="team-names">HOME</h3>
+                <div class="score">
+                    <h1 class="score-number" id="score-1">0</h1>
+                </div>
+                <div class="buttons">
+                    <button class="score-buttons" id="team-one-plus-one" onclick=team1increase(this.id)>+1</button>
+                    <button class="score-buttons" id="team-one-plus-two" onclick=team1increase(this.id)>+2</button>
+                    <button class="score-buttons" id="team-one-plus-three" onclick=team1increase(this.id)>+3</button>
+                </div>
+            </div>
+
+            <div id="team2">
+
+
+                <h3 class="team-names">AWAY</h3>
+                <div class="score">
+                    <h1 class="score-number" id="score-2">0</h1>
+                </div>
+
+                <div class="buttons">
+                    <button class="score-buttons" id="team-two-plus-one" onclick=team1increase(this.id)>+1</button>
+                    <button class="score-buttons" id="team-two-plus-two" onclick=team1increase(this.id)>+2</button>
+                    <button class="score-buttons" id="team-two-plus-three" onclick=team1increase(this.id)>+3</button>
+                </div>
+
+
+            </div>
+        </div>
+    </body>
+    <script src="index.js"></script>
+</html>

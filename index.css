@@ -1,0 +1,84 @@
+
+@font-face {
+    font-family: cursed-timer;
+    src: url("fonts/CursedTimer.ttf");
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    background-size: cover;
+    margin: 0;
+    text-align: center;
+    color: #EEEEEE;
+    font-family: cursed-timer;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 536px;
+    background-color: #1B244A;
+    /* border: 2px solid #F94F6D; */
+}
+
+#team1 {
+    margin: 0 70px 0 0;
+}
+
+#team2 {
+    margin: 0 0 0 70px;
+}
+
+.team-names {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    margin: 0px;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 216px;
+    height: 167px;
+    background-color: #080001;
+    border-radius: 5px;
+    margin: 21px 0 0 0;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 26px 0 0 0;
+}
+
+.score-buttons {
+    width: 63px;
+    height: 63px;
+    border: 2px solid #9AABD8;
+    background-color: #1B244A;
+    color: #9AABD8;
+    border-radius: 5px;
+    font-family: cursed-timer;
+    font-size: 28px;
+}
+
+.score-number {
+    font-size: 120px;
+    margin: 0;
+    color: #F94F6D;
+}
+
+
+.utility {
+    border: 2px dotted blue;
+}
